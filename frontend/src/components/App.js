@@ -23,7 +23,7 @@ const mapStateToProps = (state) => {
     redirectTo: state.common.redirectTo,
   };
 };
-
+//this is a sample text
 const mapDispatchToProps = (dispatch) => ({
   onLoad: (payload, token) =>
     dispatch({ type: APP_LOAD, payload, token, skipTracking: true }),
